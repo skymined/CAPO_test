@@ -153,7 +153,7 @@ def main():
     parser.add_argument("--logprobs", default=1, type=int)
     parser.add_argument("--cot", action='store_true', help="use chain-of-thought prompt")
     parser.add_argument("--echo", action='store_true', help="to include prompt in the outputs")
-    parser.add_argument("--screen_size", default=512, type=int)
+    parser.add_argument("--screen_size", default=2048, type=int)
     parser.add_argument("--no_save_img", action='store_true', help="do not save images", default=False)
     args = parser.parse_args()
 

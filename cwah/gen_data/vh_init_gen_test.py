@@ -22,7 +22,6 @@ from init_goal_setter.tasks import Task
 parser = argparse.ArgumentParser()
 parser.add_argument('--num-per-task', type=int, default=10, help='Maximum #episodes/task')
 parser.add_argument('--seed', type=int, default=15, help='Seed for the apartments')
-
 parser.add_argument('--task', type=str, default='setup_table', help='Task name')
 parser.add_argument('--demo-id', type=int, default=0, help='demo index')
 parser.add_argument('--port-number', type=int, default=8290, help='port')
